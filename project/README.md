@@ -179,3 +179,11 @@ From `E:\employee\project`:
 - Expand policy sources beyond local JSON.
 - Add persistent run history and artifact export.
 - Add deeper observability for retries and stage-level timings.
+
+## Architecture Diagram
+
+![Onboarding Intelligence Architecture](assets/architecture-diagram.png)
+
+## Live App
+
+[employee-onboardiing-guide-builder-production-b9eb.up.railway.app](https://employee-onboardiing-guide-builder-production-b9eb.up.railway.app)
