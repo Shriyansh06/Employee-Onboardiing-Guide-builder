@@ -1,4 +1,4 @@
-# Onboarding Intelligence
+# Onboarding Intelligence?
 
 Onboarding Intelligence is a Streamlit app that generates role-specific onboarding guides using a multi-agent pipeline.
 
@@ -73,6 +73,38 @@ Or use:
 
 ```powershell
 run.bat
+```
+
+## Deploy On Railway
+
+This repository is configured to run on Railway using the root `app.py` entrypoint.
+
+Added deployment files at repository root:
+
+- `Procfile`
+- `railway.toml`
+
+Both use the same command:
+
+```bash
+python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true
+```
+
+### Railway setup
+
+1. Deploy this repo from GitHub in Railway.
+2. Set required environment variables in Railway Variables:
+   - `XAI_API_KEY` or `GROQ_API_KEY` or `GOOGLE_API_KEY`/`GEMINI_API_KEY`
+   - optional: `TAVILY_API_KEY`
+3. Redeploy.
+
+### Local Streamlit still works
+
+Local launch remains unchanged:
+
+```powershell
+cd E:\employee\project
+..\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
 ## Environment Variables Used
