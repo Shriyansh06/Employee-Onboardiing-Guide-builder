@@ -1,0 +1,22 @@
+{
+  "IT_SETUP": {
+    "laptop_request": "Laptops are issued on Day 1. Engineering gets MacBook Pro M3; HR gets MacBook Air.",
+    "vpn_access": "All employees must use GlobalProtect VPN for internal tools.",
+    "security_training": "Mandatory security awareness training must be completed within 7 days."
+  },
+  "HR_POLICIES": {
+    "work_hours": "Core hours are 10:00 AM to 4:00 PM local time.",
+    "pto": "20 days of PTO per calendar year, accrued monthly.",
+    "referral_bonus": "$2,000 for successful engineering hires; $1,000 for others."
+  },
+  "COMPLIANCE": {
+    "data_privacy": "Adherence to GDPR and SOC2 standards is mandatory.",
+    "code_of_conduct": "Review the company code of conduct in the handbook.",
+    "nda": "Ensure your signed NDA is uploaded to the portal."
+  },
+  "BENEFITS": {
+    "health_insurance": "Comprehensive health, dental, and vision coverage starts from Day 30.",
+    "learning_stipend": "$1,500 annual budget for professional development.",
+    "gym_membership": "50% reimbursement for monthly gym memberships."
+  }
+}
