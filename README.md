@@ -182,7 +182,8 @@ From `E:\employee\project`:
 
 ## Architecture Diagram
 
-![Onboarding Intelligence Architecture](assets/architecture-diagram.png)
+<img width="1024" height="766" alt="image" src="https://github.com/user-attachments/assets/9ed448c7-8e9e-4858-9bd0-f1717630efe1" />
+
 
 ## Live App
 
